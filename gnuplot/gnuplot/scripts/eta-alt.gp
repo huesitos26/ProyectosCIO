@@ -25,6 +25,7 @@ set ylabel "{{\\Large $\\eta^{axy}(\\omega)$} {\\small $[\\times 10^{10}]$}}"
 #set key left bottom
 set output "eta-alt.tex"
 p "../../res/calEta2.kk_xxy_yxy_zxy_14452_1_65-nospin2_scissor_0_Nc_41" u 1:($2/1E+10) title "x" w l ls 1 lw 2 lt 1,\
-  "../../res/calEta2.kk_xxy_yxy_zxy_14452_1_65-nospin2_scissor_0_Nc_41" u 1:($3/1e+10) title "y" w l ls 2 lw 3 lt 2,\
+  "../../res/calEta2.kk_xxy_yxy_zxy_14452_1_65-nospin2_scissor_0_Nc_
+  41" u 1:($3/1e+10) title "y" w l ls 2 lw 3 lt 2,\
   "../../res/calEta2.kk_xxy_yxy_zxy_14452_1_65-nospin2_scissor_0_Nc_41" u 1:($4/1e+10) title "z" w l ls 3 lw 3 lt 3 
 
